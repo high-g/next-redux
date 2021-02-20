@@ -1,4 +1,4 @@
-import { countReaducer } from './duck/myButton/countReaducer'
+import { countReducer } from '@/duck/myButton/countReducer'
 import { createStore } from 'redux'
 
-export const store = createStore(countReaducer)
+export const store = createStore(countReducer)

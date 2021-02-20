@@ -11,7 +11,7 @@ type Action = {
   payload: number
 }
 
-export const countReducer = (state: CountState = initialState, acition: Action) => {
+export const countReducer = (state: CountState = initialState, action: Action) => {
   switch (action.type) {
     case 'count/increment':
       return { counter: state.counter + action.payload }
